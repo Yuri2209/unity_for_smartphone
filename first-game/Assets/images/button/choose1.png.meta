@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ef15320f5a9c6425bb19153d97560380
+guid: 8e003376131a84088a7f91508bec632b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6564971908745213605
-    second: comment_flame_0
+      213: -2538959651971516546
+    second: choose1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: comment_flame_0
+      name: choose1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 106
-        width: 150
-        height: 20
+        x: 11
+        y: 74
+        width: 138
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a63d251b277b1b50800000000000000
-      internalID: 6564971908745213605
+      spriteID: e77303506adc3ccd0800000000000000
+      internalID: -2538959651971516546
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      comment_flame_0: 6564971908745213605
+      choose1_0: -2538959651971516546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
