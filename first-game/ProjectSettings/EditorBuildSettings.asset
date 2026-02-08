@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SocratesScene.unity
     guid: 7f7a00051a58748f0a92f6b276aab35f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/choice_feeling.unity
     guid: f9ff81be454fa4a9dabebf02e31e9ea1
+  - enabled: 1
+    path: Assets/Scenes/choice_feeling_real.unity
+    guid: cf7579f0415694aa688b0bb1628b109c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
