@@ -13,6 +13,7 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] private AudioClip doorSe;
 
     private bool isLoading;
+    private bool audioUnlocked = false;
 
     private void Awake()
     {
@@ -35,7 +36,15 @@ public class SceneLoader : MonoBehaviour
         isLoading = true;
 
         if (seSource != null && doorSe != null)
-        seSource.PlayOneShot(doorSe);
+        {
+            if (!audioUnlocked)
+            {
+                seSource.PlayOneShot(doorSe, 0f); // 目的は再生を“試行”すること
+                audioUnlocked = true;
+            }
+
+            seSource.PlayOneShot(doorSe);
+        }
 
         StartCoroutine(LoadSceneWithFade(sceneName));
     }
